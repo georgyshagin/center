@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  margin: 0;
+  height: 48px;
+  padding: 14px 40px;
+  border-radius: 100px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+  &_blue {
+    background: $color_6;
+    &:hover {
+      background: $color_7;
+    }
+  }
+  &_orange {
+    background: $color_2;
+    &:hover {
+      background: $color_4;
+    }
+  }
+}

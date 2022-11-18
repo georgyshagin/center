@@ -1,0 +1,39 @@
+.program {
+  &__title {
+    margin-top: 90px;
+  }
+  &__wrapper {
+    margin-top: 40px;
+  }
+  &__card {
+    // margin: 10px;
+    height: 320px;
+    width: 280px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(60, 65, 71, 0.2);
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  &__img {
+    height: 50%;
+  }
+  &__image {
+    height: fit-content;
+    width: fit-content;
+    transform: translateY(40%);
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+  &__descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: $color_9;
+  }
+}

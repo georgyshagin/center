@@ -1,0 +1,11 @@
+$grid-columns: 14;
+$grid-gutter-width: 1.3rem;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1400px,
+);
+
+@import "bootstrap/bootstrap-grid.scss";

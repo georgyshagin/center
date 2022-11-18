@@ -1,0 +1,20 @@
+.review {
+  margin-top: 120px;
+  &__image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  &__descr {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__name {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: $color_6;
+  }
+}

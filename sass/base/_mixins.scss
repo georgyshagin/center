@@ -1,0 +1,15 @@
+@mixin circle_count($color) {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 15%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 100%;
+    background: $color;
+    opacity: 0.2;
+    z-index: -10;
+  }
+}

@@ -1,0 +1,21 @@
+.support {
+  margin-top: 100px;
+  &__card {
+    margin-top: 40px;
+  }
+  &__count {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 150%;
+    color: $color_3;
+    @include circle_count($color_6);
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color_9;
+  }
+}

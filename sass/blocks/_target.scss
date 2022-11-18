@@ -1,0 +1,18 @@
+.target {
+  margin-top: 120px;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__image {
+    width: 270px;
+    height: 270px;
+    opacity: 0.2;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color_9;
+    margin-bottom: 35px;
+  }
+}

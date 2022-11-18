@@ -1,0 +1,29 @@
+.principles {
+  margin-top: 120px;
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__wrapper {
+    margin-bottom: 20px;
+  }
+  &__item {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(60, 65, 71, 0.2);
+    border-radius: 8px;
+    min-height: 232px;
+  }
+  &__credo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__descr {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color_9;
+    padding: 20px 0 20px 40px;
+  }
+}

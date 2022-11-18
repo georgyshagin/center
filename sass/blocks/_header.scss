@@ -1,0 +1,29 @@
+.header {
+  &__social {
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    &-dropped,
+    &-list {
+      color: $color_10;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+  &__icons {
+    width: 3vw;
+  }
+  .dropdown-menu.show {
+    width: 214px;
+    left: -40px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+  }
+}

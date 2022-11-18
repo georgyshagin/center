@@ -1,0 +1,38 @@
+// @import "libs/bootstrap.min.scss";
+@import "libs/bootstrap.min.scss";
+// @import "libs/mygrid";
+@import "libs/fonts";
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  box-sizing: border-box;
+  color: $color_10;
+  font-family: "Montserrat";
+}
+.arrow__up {
+  position: fixed;
+  right: 20%;
+  bottom: 20%;
+}
+
+@import "blocks/button";
+@import "blocks/link";
+@import "blocks/title";
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/background";
+@import "blocks/target";
+@import "blocks/program";
+@import "blocks/result";
+@import "blocks/review";
+@import "blocks/principle";
+@import "blocks/support";
+@import "blocks/news";
+
+// @import "blocks";
+// @import "blocks";
+
+// @import "blocks";
+// @import "blocks";

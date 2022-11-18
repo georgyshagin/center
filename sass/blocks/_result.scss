@@ -1,0 +1,40 @@
+.result {
+  margin-top: 100px;
+  &__count {
+    display: flex;
+    align-items: baseline;
+    font-weight: 700;
+    line-height: 150%;
+    &-min {
+      font-weight: 700;
+      line-height: 150%;
+      font-size: 48px;
+      color: $color_6;
+    }
+    &-max {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 150%;
+      color: $color_6;
+      font-style: normal;
+      position: relative;
+      justify-self: end;
+      @include circle_count($color_2);
+    }
+    &-mini {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+      color: $color_6;
+    }
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    span {
+      font-weight: 700;
+    }
+  }
+}
