@@ -1,4 +1,3 @@
-// @import "libs/bootstrap.min.scss";
 @import "libs/bootstrap.min.scss";
 // @import "libs/mygrid";
 @import "libs/fonts";
@@ -11,9 +10,10 @@
   color: $color_10;
   font-family: "Montserrat";
 }
-.arrow__up {
+.pageup {
+  display: none;
   position: fixed;
-  right: 20%;
+  right: 15%;
   bottom: 20%;
 }
 
@@ -21,6 +21,9 @@
 @import "blocks/title";
 @import "blocks/header";
 @import "blocks/footer";
+
+// main
+
 @import "blocks/background";
 @import "blocks/target";
 @import "blocks/program";
@@ -30,7 +33,9 @@
 @import "blocks/support";
 @import "blocks/news";
 
-// @import "blocks";
+// about
+
+@import "blocks/about/start/about";
 // @import "blocks";
 
 // @import "blocks";
